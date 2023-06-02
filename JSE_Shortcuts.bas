@@ -1,6 +1,7 @@
 Attribute VB_Name = "JSE_Shortcuts"
 Sub JSE_Shortcuts()
-
+  'Note that file path of chrome will vary per user, this must be updated when using script
+  'Also note that script depends on current structure of JSE website, if this is changed the URLs in the script must be updated
 Dim infotype, ticker As String
 
 ticker = InputBox("Enter stock ticker:")
